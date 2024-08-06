@@ -1,10 +1,11 @@
 <manifest>
-  <remote name="sel4-cap" fetch="https://github.com/sel4-cap"/>
+  <remote name="sel4-dev-kit" fetch="https://github.com/sel4devkit"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>   
   
-  <project name="dev-kit-libs.git" path="microkit" remote="sel4-cap" revision="main" upstream="main" dest-branch="main"/>
-  <project name="dev-kit-examples.git" path="microkit/example/maaxboard" remote="sel4-cap" revision="main" upstream="main" dest-branch="main"/>
-  <project name="u-boot.git" path="microkit/libubootdrivers/uboot" remote="sel4-cap" revision="microkit" upstream="microkit" dest-branch="microkit"/>
-  <project name="picolibc.git" path="picolibc" remote="sel4-cap" revision="dev_kit" upstream="dev_kit" dest-branch="dev_kit"/>
+  <project name="microkit_project_libs.git" path="microkit" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
+  <project name="microkit_examples.git" path="microkit/example/maaxboard" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
+  <project name="u-boot.git" path="microkit/libubootdrivers/uboot" remote="sel4-dev-kit" revision="microkit" upstream="microkit" dest-branch="microkit"/>
+  <project name="picolibc.git" path="picolibc" remote="sel4-dev-kit" revision="dev_kit" upstream="dev_kit" dest-branch="dev_kit"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="microkit" dest-branch="microkit"/>
+  <project name="sel4devkit-maaxboard-microkit.git" path="microkit_build" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
 </manifest>
