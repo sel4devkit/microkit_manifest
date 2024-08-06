@@ -1,5 +1,4 @@
 <manifest>
-  <remote name="sel4-cap" fetch="https://github.com/sel4-cap"/>
   <remote name="sel4-dev-kit" fetch="https://github.com/sel4devkit"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>   
   
