@@ -1,5 +1,5 @@
 <manifest>
-  <remote name="sel4-dev-kit" fetch="https://github.com/sel4devkit"/>
+  <remote name="sel4-dev-kit" fetch="git@github.com:sel4devkit"/>
   <remote name="seL4" fetch="https://github.com/seL4"/>   
   
   <project name="sel4devkit-maaxboard-microkit-project-libs.git" path="project_libs" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
