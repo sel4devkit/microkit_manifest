@@ -4,7 +4,7 @@
   
   <project name="sel4devkit-maaxboard-microkit-project-libs.git" path="project_libs" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
   <project name="sel4devkit-maaxboard-microkit-uboot-driver-example.git" path="examples/maaxboard/uboot_driver_example" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
-  <project name="sel4devkit-maaxboard-microkit-security-demo-example.git" path="examples/maaxboard/security_demoe" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
+  <project name="sel4devkit-maaxboard-microkit-security-demo-example.git" path="examples/maaxboard/security_demo" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
   <project name="u-boot.git" path="project_libs/libubootdrivers/uboot" remote="sel4-dev-kit" revision="microkit" upstream="microkit" dest-branch="microkit"/>
   <project name="sel4devkit-maaxboard-microkit-picolibc.git" path="picolibc" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="microkit" dest-branch="microkit"/>
