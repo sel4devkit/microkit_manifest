@@ -9,4 +9,5 @@
   <project name="sel4devkit-maaxboard-microkit-picolibc.git" path="picolibc" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
   <project name="seL4.git" path="seL4" remote="seL4" revision="92f0f3ab28f00c97851512216c855f4180534a60" upstream="microkit" dest-branch="microkit"/>
   <project name="sel4devkit-maaxboard-microkit-old.git" path="microkit" remote="sel4-dev-kit" revision="main" upstream="main" dest-branch="main"/>
+  <project name="sddf.git" path="project_libs/sddf" remote="sel4-dev-kit" revision="case_study_ethernet" upstream="case_study_ethernet" dest-branch="case_study_ethernet"/>
 </manifest>
